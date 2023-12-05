@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ResponsiveLayout extends StatelessWidget {
   final Widget mobileBody;
   final Widget desktopBody;
-  const ResponsiveLayout({Key? key, required mobileBody, required desktopBody})
+  const ResponsiveLayout({Key? key, @required mobileBody, @required desktopBody})
       : mobileBody = mobileBody,
         desktopBody = desktopBody,
         super(key: key);

@@ -30,9 +30,9 @@ class _LabTestsState extends State<LabTests> {
               childAspectRatio: 1)
           : SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
-              crossAxisSpacing: 30,
+              crossAxisSpacing: 15,
               mainAxisSpacing: 15,
-              childAspectRatio: 0.9),
+              childAspectRatio: 0.65),
       itemBuilder: (context, index) {
         return Container(
           // width: 140,

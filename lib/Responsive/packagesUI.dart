@@ -28,7 +28,7 @@ class _PackagesUIState extends State<PackagesUI> {
               crossAxisCount: 1,
               crossAxisSpacing: 40,
               mainAxisSpacing: 15,
-              childAspectRatio: 1.3),
+              childAspectRatio: 1),
       itemBuilder: (context, index) {
         return Container(
           padding: EdgeInsets.fromLTRB(30, 25, 20, 10),

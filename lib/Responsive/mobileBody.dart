@@ -73,7 +73,7 @@ class _MobileBodyState extends State<MobileBody> {
               child: SafeArea(
                 child: Container(
                   decoration: BoxDecoration(color: Colors.white),
-                  padding: EdgeInsets.fromLTRB(15, 20, 15, 10),
+                  padding: EdgeInsets.fromLTRB(10, 20, 10, 10),
                   child: Column(
                     children: [
                       Row(
@@ -133,7 +133,7 @@ class _MobileBodyState extends State<MobileBody> {
                         height: 10,
                       ),
                       Container(
-                        padding: EdgeInsets.fromLTRB(40, 15, 40, 15),
+                        padding: EdgeInsets.fromLTRB(10, 15, 10, 15),
                         child: PackagesUI(
                           desktop: false,
                         ),

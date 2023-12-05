@@ -79,7 +79,15 @@ packages:
     source: hosted
     version: "1.2.0"
   firebase_core:
+<<<<<<< HEAD
     dependency: "direct main"
+=======
+<<<<<<< HEAD
+    dependency: "direct main"
+=======
+    dependency: transitive
+>>>>>>> 7050320 (Responsive UI updated)
+>>>>>>> ff736f8 (Responsive UI updated)
     description:
       name: firebase_core
       url: "https://pub.dartlang.org"

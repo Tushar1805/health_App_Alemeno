@@ -8,6 +8,13 @@
 .buildlog/
 .history
 .svn/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+.fvm/
+>>>>>>> 7050320 (Responsive UI updated)
+>>>>>>> ff736f8 (Responsive UI updated)
 
 # IntelliJ related
 *.iml

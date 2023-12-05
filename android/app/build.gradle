@@ -23,8 +23,18 @@ if (flutterVersionName == null) {
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+<<<<<<< HEAD
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 apply plugin:'com.google.gms.google-services'
+=======
+<<<<<<< HEAD
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply plugin:'com.google.gms.google-services'
+=======
+apply plugin: 'com.google.gms.google-services'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+>>>>>>> 7050320 (Responsive UI updated)
+>>>>>>> ff736f8 (Responsive UI updated)
 
 android {
     compileSdkVersion 30
@@ -35,11 +45,29 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ff736f8 (Responsive UI updated)
         applicationId "com.example.health_checkup"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+<<<<<<< HEAD
+=======
+=======
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+        }
+        applicationId "com.example.health_checkup"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+>>>>>>> 7050320 (Responsive UI updated)
+>>>>>>> ff736f8 (Responsive UI updated)
     }
 
     buildTypes {
@@ -47,6 +75,15 @@ android {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            shrinkResources false
+            minifyEnabled false 
+            multiDexEnabled true
+>>>>>>> 7050320 (Responsive UI updated)
+>>>>>>> ff736f8 (Responsive UI updated)
         }
     }
 }
@@ -57,6 +94,14 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+<<<<<<< HEAD
     implementation platform('com.google.firebase:firebase-bom:32.6.0')
+=======
+<<<<<<< HEAD
+    implementation platform('com.google.firebase:firebase-bom:32.6.0')
+=======
+    implementation platform('com.google.firebase:firebase-bom:28.3.1')
+>>>>>>> 7050320 (Responsive UI updated)
+>>>>>>> ff736f8 (Responsive UI updated)
     implementation 'com.google.firebase:firebase-analytics'
 }
